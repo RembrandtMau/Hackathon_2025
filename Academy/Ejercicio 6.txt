@@ -1,0 +1,16 @@
+Ejercicio 6: Simulador de Transferencias Bancarias - Opcional 
+
+Descripción: 
+
+Se desea simular un sistema bancario donde múltiples usuarios realizan transferencias concurrentes entre distintas cuentas. 
+El objetivo es comprobar que las operaciones se realicen de forma segura y sincronizada, evitando condiciones de carrera que puedan alterar los saldos. 
+
+Requerimientos: 
+
+1-Crear una clase Cuenta con:  
+  Atributo saldo. 
+  Métodos sincronizados depositar(), retirar() y transferir(). 
+
+2-Crear una clase Transferencia que implemente Runnable y ejecute múltiples transferencias entre dos cuentas. 
+3-En el main, crear varias cuentas y lanzar hilos que realicen transferencias simultáneamente. 
+4-Al finalizar, mostrar el saldo de cada cuenta y validar que la suma total del dinero en el sistema no haya cambiado. 
