@@ -1,0 +1,15 @@
+Ejercicio 1.1: Pruebas Cálculo de Interes Simple  
+
+Descripción: 
+Se entrega al candidato la especificación funcional del cálculo de interés simple: 
+
+Not supported language -1 line 
+Interés = Monto * (Tasa / 100) * Años 
+
+Objetivo: 
+Evaluar la capacidad del tester para diseñar casos de prueba funcionales, identificar valores límite y validar salidas esperadas. 
+Actividades esperadas: 
+
+Elaborar una tabla de casos de prueba (valores válidos, límites, inválidos). 
+Indicar datos de entrada, resultado esperado, resultado obtenido (simulado). 
+Definir criterios de aceptación. 
