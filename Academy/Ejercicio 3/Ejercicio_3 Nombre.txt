@@ -1,0 +1,11 @@
+Ejercicio 3
+
+Ejercicio 3: Microservicio y comunicación
+Objetivo: Evaluar comprensión de arquitectura distribuida.  
+Enunciado:  
+Diseña dos microservicios:
+1. Servicio de usuarios: CRUD básico.  
+2. Servicio de pedidos: que consulte el servicio de usuarios para validar el cliente antes de crear el pedido.  
+
+Comunicación vía REST (por ejemplo, usando `RestTemplate` o `WebClient`).  
+Agregar Dockerfile para cada servicio.

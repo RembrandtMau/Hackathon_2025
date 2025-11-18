@@ -1,0 +1,10 @@
+Ejercicio 2
+
+Ejercicio 2: Creación de una API REST
+Objetivo: Evaluar conocimiento de desarrollo de APIs en Java.  
+Enunciado:  
+Crea una API REST en Spring Boot que gestione un catálogo de productos.  
+Debe permitir:
+1. Crear, consultar, actualizar y eliminar productos.  
+2. Persistir datos en una base H2 o similar.  
+3. Responder en formato JSON.  
