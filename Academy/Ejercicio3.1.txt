@@ -1,0 +1,17 @@
+Ejercicio 3.1 Pruebas de Gestión de Clientes Bancarios 
+
+Descripción: 
+Probar un módulo que lista clientes y muestra el que tiene mayor saldo. 
+
+Objetivo: 
+Evaluar capacidad de diseñar pruebas funcionales y validar reglas de negocio. 
+
+Actividades esperadas: 
+
+Diseñar casos de prueba funcionales para:  
+
+Listar clientes. 
+Calcular correctamente el cliente con mayor saldo. 
+Manejar lista vacía. 
+
+Documentar resultado esperado y real. 
