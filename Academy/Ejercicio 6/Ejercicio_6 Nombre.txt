@@ -9,7 +9,3 @@ Crea una lista de empleados y realiza las siguientes operaciones:
 2. Filtrar empleados con salario mayor a un valor dado.  
 3. Ordenar la lista por salario descendente.  
 
-Evaluar:  
-- Uso de colecciones (`List`, `Stream API`).  
-- Buenas prácticas (encapsulamiento, uso de getters/setters, toString).  
-- Legibilidad del código.
