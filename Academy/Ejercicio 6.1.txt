@@ -4,15 +4,15 @@ Descripción:
 Validar que múltiples hilos ejecutando transferencias no generen inconsistencias en los saldos. 
 
 Objetivo: 
-Evaluar habilidades para diseñar pruebas de concurrencia y rendimiento, tanto manuales como automatizadas. 
+  -Evaluar habilidades para diseñar pruebas de concurrencia y rendimiento, tanto manuales como automatizadas. 
 
 Actividades esperadas: 
 Manual: 
 
-Definir escenarios de carga (10, 50, 100 transferencias simultáneas). 
-Determinar métricas a medir: tiempo promedio, errores, consistencia de saldos. 
+  -Definir escenarios de carga (10, 50, 100 transferencias simultáneas). 
+  -Determinar métricas a medir: tiempo promedio, errores, consistencia de saldos. 
 
 Automatizado (opcional): 
 
-Implementar un script (por ejemplo, con JUnit Performance, JMeter, o Gatling) que ejecute las transferencias concurrentes. 
-Validar que la suma total de saldos permanezca constante. 
+  -Implementar un script (por ejemplo, con JUnit Performance, JMeter, o Gatling) que ejecute las transferencias concurrentes. 
+  -Validar que la suma total de saldos permanezca constante. 
