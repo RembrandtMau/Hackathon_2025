@@ -1,0 +1,11 @@
+Ejercicio 5: Simulador de Cajero Automático 
+
+Descripción: 
+Permite al usuario: 
+
+Consultar saldo. 
+Depositar. 
+Retirar. 
+Salir. 
+
+Debe manejar errores (retiro mayor al saldo, entradas no válidas). 
