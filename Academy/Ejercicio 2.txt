@@ -1,0 +1,4 @@
+Ejercicio 2: Validación de Número de Cuenta 
+
+Descripción: 
+Verifica si un número de cuenta bancaria (string) es válido. Una cuenta válida tiene exactamente 10 dígitos numéricos. 
