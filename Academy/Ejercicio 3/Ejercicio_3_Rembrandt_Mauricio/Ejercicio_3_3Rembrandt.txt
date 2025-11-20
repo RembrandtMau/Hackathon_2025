@@ -1,0 +1,24 @@
+Ejercicio 3.3: Buscar al Cliente más rico
+Caso 1: El más rico está en medio
+
+Datos de entrada: [Juan: $100], [Maria: $5000], [Pedro: $200]
+
+Resultado esperado: Gana Maria con $5000
+
+Tipo de prueba: Prueba básica
+
+Caso 2: Solo hay un cliente
+
+Datos de entrada: [Ana: $100]
+
+Resultado esperado: Gana Ana con $100
+
+Tipo de prueba: Caso mínimo 
+
+Caso 3: Hay dos con el mismo dinero
+
+Datos de entrada: [Ana: $500], [Luis: $500]
+
+Resultado esperado: Gana Ana (El sistema se queda con el primero que vio)
+
+Tipo de prueba: Caso de empate

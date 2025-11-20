@@ -1,0 +1,24 @@
+Ejercicio 4.4: Sumar Transacciones
+Caso 1: Depósitos y Retiros mezclados
+
+Datos de entrada: [Deposito: 1000], [Retiro: 200], [Deposito: 500]
+
+Resultado esperado: Total Dep: 1500, Total Ret: 200, Balance: 1300
+
+Tipo de prueba: Prueba básica
+
+Caso 2: Escribieron en mayúsculas y minúsculas
+
+Datos de entrada: [DEPOSITO: 100], [deposito: 100]
+
+Resultado esperado: El sistema entiende los dos y suma 200
+
+Tipo de prueba: Prueba de Texto
+
+Caso 3: Error de dedo
+
+Datos de entrada: [Transacción: "Depoosito", Monto: 1000]
+
+Resultado esperado: No suma nada (Ignora la palabra mal escrita)
+
+Tipo de prueba: Prueba de error humano

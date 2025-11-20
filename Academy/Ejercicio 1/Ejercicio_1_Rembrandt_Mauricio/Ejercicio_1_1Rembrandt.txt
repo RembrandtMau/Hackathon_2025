@@ -1,0 +1,23 @@
+Ejercicio 1.1: Cálculo de Interés Simple
+Caso 1: Prueba cotidiana
+
+Datos de entrada: M:1000, T:10, A:2
+
+Lo que debe pasar: Interés: 200, Final: 1200
+
+Tipo de prueba: Prueba básica 
+
+Caso 2: Con centavos 
+
+Datos de entrada: M:2500.50, T:5.5, A:4
+
+Lo que debe pasar: Interés: 550.11, Final: 3050.61
+
+Tipo de prueba: Prueba de precisión para evitar perdida de centavos
+
+Caso 3: Interés de cero
+
+Datos de entrada: M:5000, T:0, A:5
+
+Lo que debe pasar: Interés: 0, Final: 5000 
+

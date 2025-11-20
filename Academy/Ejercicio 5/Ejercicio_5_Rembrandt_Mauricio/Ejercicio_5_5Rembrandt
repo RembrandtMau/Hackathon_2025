@@ -1,0 +1,24 @@
+Ejercicio 5.5: Cajero Automático
+Caso 1: Depositar dinero
+
+Datos de entrada: Tengo $3000 -> Elijo opción 2 -> Meto $500
+
+Resultado esperado: Me dice "Depósito exitoso" y ahora tengo $3500
+
+Tipo de prueba: Prueba básica
+
+Caso 2: Querer sacar más de lo que tienes
+
+Datos de entrada: Tengo $3000 -> Elijo opción 3 -> Pido sacar $5000
+
+Resultado esperado: Me dice "Fondos insuficientes" 
+
+Tipo de prueba: Reglas del banco
+
+Caso 3: Escribir letras en el menú
+
+Datos de entrada: Me pide opción -> Escribo "HOLA"
+
+Resultado esperado: El programa NO se cierra de golpe. Me dice "Opción no válida. Ingrese unicamente números" y me deja intentar otra vez.
+
+Tipo de prueba: Prueba para que no crashee o truene el programa.

@@ -1,0 +1,32 @@
+Ejercicio 2.2: Validación de Cuenta
+Caso 1: Cuenta correcta
+
+Datos de entrada: Cuenta: "1234567890"
+
+Resultado esperado: Válida
+
+Tipo de prueba: Prueba básica 
+
+Caso 2: Empieza con ceros
+
+Datos de entrada: Cuenta: "0012345678"
+
+Resultado esperado: Válida (El sistema no debe borrar los ceros)
+
+Tipo de prueba: Caso especial
+
+Caso 3: Faltan números 
+
+Datos de entrada: Cuenta: "123456789" (Son 9)
+
+Resultado esperado: Inválida (Error: Longitud incorrecta)
+
+Tipo de prueba: Caso de error
+
+Caso 4: Escribieron letras
+
+Datos de entrada: Cuenta: "12345ABCDE"
+
+Resultado esperado: Inválida (Error: Solo se aceptan números)
+
+Tipo de prueba: Cuenta con letras
