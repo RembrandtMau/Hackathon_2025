@@ -1,0 +1,25 @@
+Ejercicio 1:
+Caso 1: Básico
+Monto inicial: 1500
+Tasa de interés anual: 15
+Años: 5
+
+Salida:	Interés total:1,125.00  Monto Final:2,625.00
+
+
+
+Caso 1: Decimales
+Monto inicial: 1250.23
+Tasa de interés anual: 27.45
+Años: 6
+
+Salida:	Interés total: 2,059.13  Monto Final: 3.309.36
+
+
+
+Caso 1: Invalido
+Monto inicial: Hola esto es una prueba
+Tasa de interés anual: Hola esto es una prueba
+Años: Hola esto es una prueba
+
+Salida: Ingresa un numero valido para el/la/los Monto/Tasa/años
