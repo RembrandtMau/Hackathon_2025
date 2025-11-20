@@ -1,0 +1,50 @@
+jercicio 6.1: Pruebas del Simulador (Versión Simple)
+Como ahora eres el QA Tester de este sistema bancario, aquí tienes tus casos de prueba para verificar que el dinero no desaparezca "mágicamente".
+
+Caso 1: La prueba de la suma total (Consistencia)
+
+Datos de entrada:
+
+Cuenta A: $20,000
+
+Cuenta B: $20,000
+
+Total en el banco: $40,000
+
+Acción: Hacer 2000 transferencias cruzadas muy rápido.
+
+Resultado esperado:
+
+Los saldos individuales de A y B pueden cambiar.
+
+PERO, la suma (A + B) debe ser exactamente $40,000.
+
+Tipo de prueba: Integridad de datos (Si da 39,990, el código falló).
+
+Caso 2: Transferencia sin fondos
+
+Datos de entrada:
+
+Cuenta A: $10
+
+Intento transferir: $50
+
+Resultado esperado:
+
+La transferencia no se hace.
+
+El saldo de A sigue siendo $10.
+
+Tipo de prueba: Lógica de negocio.
+
+Caso 3: Concurrencia Extrema
+
+Datos de entrada:
+
+Lanzar 10 hilos (no solo 2) todos moviendo dinero entre las mismas cuentas.
+
+Resultado esperado:
+
+El sistema puede volverse un poco más lento, pero nunca debe perder dinero. El total final siempre debe coincidir con el inicial.
+
+Tipo de prueba: Estrés (Stress Testing).
